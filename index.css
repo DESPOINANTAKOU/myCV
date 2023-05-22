@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 60vw;
+  /* font-family: "Roboto"; */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#header {
+  height: 10rem;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(71, 68, 68);
+}
+
+#flex {
+  background-color: rgb(110, 110, 110);
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+#name {
+  font-size: 40pt;
+  margin-bottom: 2%;
+}
+
+.info-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#email-icon,
+#phone,
+#pointer {
+  height: 22pt;
+  width: 22pt;
+}
+
+.sub-divs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#personal-info1,
+#personal-info2 {
+  margin-left: 7%;
+}
+
+#personal-info2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4%;
+  width: 100%;
+}
+
+#img-child {
+  width: 20%;
+}
+
+#text-child {
+  width: 80%;
+}
+
+#internal-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100%;
+  padding: 2%;
+}
+
+#education {
+  padding: 2%;
+  border: 2px solid rgb(71, 68, 68);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(167, 165, 165);
+}
+
+#work-experience {
+  padding: 2%;
+  border: 2px solid rgb(71, 68, 68);
+  background-color: rgb(226, 225, 225);
+}
+
+.work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1;
+}
+
+.info-div,
+.more-info-div {
+  width: 50%;
+}
+
+.info-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+a {
+  color: rgb(105, 43, 43);
+}
+
+#extra-info {
+  border: 2px solid rgb(71, 68, 68);
+  padding: 2%;
+}
+
+ol{
+  padding: 2%;
+}
+
+#car-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2%;
+}
+
+.custom-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  width: 20px;
+  height: 20px;
+  border: 2px solid #000;
+  background-color: #fff;
+}
+
+.custom-checkbox:checked {
+  background-color: darkgrey;
+}
+
+#footer{
+  margin: 2%;
+}
+
+@media only screen and (min-width: 992px) {
+  html {
+    height: 100vh;
+    width: 75vw;
+    margin: auto;
+    margin-bottom: 2vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+}
